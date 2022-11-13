@@ -1,1 +1,2 @@
-# live: https://mahmud-ii.github.io/sayedmahmud/portfolio/
+# live: https://mahmud-ii.github.io/portfolio/
+
