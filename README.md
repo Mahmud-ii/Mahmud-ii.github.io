@@ -1,3 +1,3 @@
-# Portfolio :<a  href="https://mahmud-ii.github.io/portfolio/" target="_blank">:Live here</a>
+# Portfolio :<a target="_blank" href="https://mahmud-ii.github.io/">:Live here</a>
 
-# poth - MIT OCW clone : <a  href="https://mahmud-ii.github.io/portfolio/" target="_blank"> Live here</a>
+# poth - MIT OCW clone : <a target="_blank" href="https://mahmud-ii.github.io/Poth/"> Live here</a>
