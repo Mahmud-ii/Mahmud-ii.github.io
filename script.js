@@ -46,3 +46,26 @@ for(let val of menuItemsChild){
         lastScroll = currentScroll;
     }
 })
+
+// theme toggler
+
+let themeDots = document.querySelectorAll(".btn-color");
+let imgElem = document.getElementById("smlogo");
+
+const setSvg = (child) => {
+    console.log(child)
+    console.log(imgElem)
+
+    imgElem.src = child ?   "image/SMTexton.svg" : "image/SMTextoff.svg" 
+}
+themeDots.forEach(themeDot => {
+    themeDot.addEventListener('click', () => {
+        document.body.classList.toggle("dark")
+        let child = themeDot.firstChild.classList.contains('fa-toggle-off')
+
+        setSvg(child)
+
+        child ? themeDot.innerHTML = '<i class="fa-solid fa-toggle-on"></i>' : themeDot.innerHTML = '<i class="fa-solid fa-toggle-off"></i>'
+
+    });
+});
