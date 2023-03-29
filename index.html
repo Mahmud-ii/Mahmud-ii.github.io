@@ -8,19 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Sayed Mahmud</title>
 </head>
-<body>
-    
-    
-    
+<body class="">
     <!-- header starts -->
-
     <header id="header">
         <a href="index.html">
             <div class="logo">
-                <img src="image/SMText.svg" class="logo-img" alt="logo">
+                <img id="smlogo" src="image/SMTextoff.svg" class="logo-img" alt="logo">
             </div>
         </a>
-        
         <nav>
             <div class="nav">            
                 <ul class="nav-items">
@@ -28,8 +23,15 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#hl-projects">Work</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a class="email-link" href="mailto:armanemon5801@gmail.com" rel="noopener noreferrer" target="_blank">Contact</a></li>
-                    <li><button class="btn-color"><i class="fa-solid fa-toggle-on"></i></button></li>
+                    <li><a class="email-link" href="#contact">Contact</a></li>
+                    <li>
+                        <a class="resume-a" href="./image/resume.pdf" target="_blank">
+                            <button class="btn btn-resume">Resume</button>
+                        </a>
+                    </li>
+                    <li>
+                        <button class="btn-color "><i class="fa-solid fa-toggle-off"></i></button>
+                    </li>
                 </ul>
             </div>    
 
@@ -38,82 +40,93 @@
                     <span></span>
                 </div>       
                 <ul class="menu-items">
-                    <li><button class="btn-color"><i class="fa-solid fa-toggle-on"></i></button></li>
+                    <li>
+                        <button class="btn-color"><i class="fa-solid fa-toggle-off"></i></button>
+                    </li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#hl-projects">Work</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a class="email-link" href="mailto:armanemon5801@gmail.com" rel="noopener noreferrer" target="_blank">Contact</a></li>
+                    <li><a class="email-link" href="#contact">Contact</a></li>
+                    <li>
+                        <a class="resume-a" href="./image/resume.pdf" target="_blank">
+                            <button class="btn btn-resume">Resume</button>
+                        </a>
+                    </li>
                 </ul>
-                
             </div>    
         </nav>
     </header>
 <!-- header ends-->
-
  <!-- sticky items starts-->
-
         <div class="hidden">
             <ul class="sticky sticky-social">
-                <li><a href="#">
-                    <i class="fa-brands fa-github"></i>
-                </a></li>
-                <li><a href="#">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a></li>
-                <li><a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                </a></li>
-                <li><a href="">
-                    <i class="fa-brands fa-codepen"></i>
-                </a></li>
-                <li><a href="">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a></li>
+                <li>    
+                    <a href="https://github.com/Mahmud-ii" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sayed-mahmud-074222201/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>    
+                    <a href="https://www.facebook.com/mahmud.shanto.ii/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Sayedma07023927" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/mahmud-ii" target="_blank">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </li>
             </ul>
-    
-    
             <div class="sticky sticky-email">
                 <a class="email-link" href="mailto:armanemon5801@gmail.com" rel="noopener noreferrer" target="_blank">armanemon5801@gmail.com</a>
             </div>
         </div>
 <!-- sticky items ends-->
-
 <main>
-
 <!-- hero starts -->
     <section id="hero" class="hero">
             <h1>Hi, my name is</h1>
             <h2 class="big-heading">Sayed Mahmud.</h2>
             <h3 class="big-heading">I build things for the web.</h3>
-            <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a href="#">Upstatement.</a></p>
-            <a href="#"><button class="btn btn-email">Contact Me</button></a>
+            <p>I’m a software engineer specializing in Front-end (and occasionally Back-end). Currently, I’m focused on building accessible, human centered products that helps society, humankind.</p>
+            <a href="./image/resume.pdf" target="_blank">
+                <button class="btn btn-email">Resume</button>
+            </a>
     </section>
     <!-- hero ends-->
-
-
     <!-- about me starts -->
     <section id="about"  class="about" >
         <div class="sec-heading-wrapper">
             <h2 class="sec-heading">About Me</h2>
         </div>
-
             <div class="about-wrapper">
                 <div class="about-wrapper--inner">
-                    <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
-        
-                    <p>Fast-forward to today, and I’ve had the privilege of working at <a>an advertising agency</a>, <a>a start-up</a>, <a>a huge corporation</a>, and <a>a student-led design studio</a>. My main focus these days is building accessible, inclusive products and digital experiences at <a>Upstatement</a> for a variety of clients.</p>
-        
-                    <p>I also recently <a>launched a course</a> launched a course that covers everything you need to build a web app with the Spotify API using Node & React.</p>
+                    <p>Hello! My name is Shanto, A Front-End Developer. Courteous and enthusiastic, interested in IT and everything in it's orbit. I recently began to be fascinated by web programming, e.g. developing websites. Fast-forward to today, and I’ve had the privilege of working at a <a>start-up company</a> as a Front-End developer, where I gained experience of working in this area.</p>
                     
+                    <p>I also have some complementary skills like: <a>Graphic Design</a>, <a>UI/UX</a> which makes front-end development more user engaging and eye catchy. </p>
+
+                    <p>As this area complements my studies, I am keen explore more of this field. For this reason I am looking for a company willing to offer me a placement among their developers. In return, I would be fully commitment, and be a pleasant and friendly addition to your team.
+                        Currently I'm looking for opportunities such as job or an internship as a Front-End developer.</p>
+
                     <p>Here are a few technologies I’ve been working with recently:</p>
+
                     <ul class="skills-list">
                         <li>JavaScript (ES6+)</li>
-                        <li>React</li>
-                        <li>Node.js</li>
                         <li>TypeScript</li>
-                        <li>Eleventy</li>
-                        <li>WordPress</li>
+                        <li>React, Redux</li>
+                        <li>Sass, Tailwind, MUI</li>
+                        <li>Figma, Photoshop</li>
+                        <li>Git, Webpack, Firebase</li>
                     </ul>
                 </div>
                 <!-- image -->
@@ -127,312 +140,294 @@
             </div>
     </section>
 <!-- about me ends -->
-
 <!-- highlighted projects starts -->
     <section id="hl-projects" class="hl-projects" >
         <div class="sec-heading-wrapper">
             <h2 class="sec-heading">Some Things I’ve Built</h2>
         </div>
-
     <div class="hl-project-grid">   
         <!-- first highlighted project start -->
         <div class="hl-project">
-            
             <div class="project-image">
-                    <a href="" class="project-img-link">
+                <a href="https://maltimart-c2529.web.app/" target="_blank" class="project-img-link">
                     <!-- before -->
                     <div class="p-image-wrapper">
                         <div class="p-image-wrapper--inner">
-                            <img src="image/demo.png" alt="">
+                            <img src="image/ecomfarhad.JPG" alt="">
                         </div>
                     </div>
-                    </a>
+                </a>
             </div>
-
             <div class="project-content">
                 <p class="project-overline">Featured Project</p>
-                <h3 class="hl-project-name"><a href="#">Halcyon Theme</a></h3>
+                <h3 class="hl-project-name"><a href="https://maltimart-c2529.web.app/" target="_blank">Miazi Shop</a></h3>
                 <div class="project-description">
-                    <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p>An Ecommerce Web app built with React, Material UI, Redux, Firebase, Sanity for an online mobile business
+                        based in Mirpur, Dhaka</p>
                 </div>
                 <ul class="project-tech-list">
-                    <li>VS Code</li>
-                    <li>Sublime Text</li>
-                    <li>Atom</li>
-                    <li>iTerm2</li>
-                    <li>Hyper</li>
+                    <li>React</li>
+                    <li>Material UI</li>
+                    <li>Redux</li>
+                    <li>Firebase</li>
                 </ul>
                 <div class="project-links">
-                    <a href="">
+                    <a href="https://github.com/Mahmud-ii/ecom-farhad" target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="https://maltimart-c2529.web.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
         <!-- first highlighted project ends-->
-
         <!-- second highlighted project start -->
         <div class="hl-project">
-            
             <div class="project-image">
-                    <a href="" class="project-img-link">
-                    <!-- before -->
+                <a href="https://mahmud-ii.github.io/poth" target="_blank" class="project-img-link">
+                <!-- before -->
                     <div class="p-image-wrapper">
                         <div class="p-image-wrapper--inner">
-                            <img src="image/demo.png" alt="">
+                            <img src="image/poth.JPG" alt="">
                         </div>
                     </div>
-                    </a>
+                </a>
             </div>
-
             <div class="project-content">
                 <p class="project-overline">Featured Project</p>
-                <h3 class="hl-project-name"><a href="#">Halcyon Theme</a></h3>
+                <h3 class="hl-project-name"><a href="https://mahmud-ii.github.io/poth" target="_blank">Poth</a></h3>
                 <div class="project-description">
-                    <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p>Web app built with Html, CSS, Sass, JavaScript for making education-related information( such as top Books,
+                    Lectures, recommendations, and Notes) available for Students.</p>
                 </div>
                 <ul class="project-tech-list">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Sass</li>
+                    <li>Vanilla JavaScript</li>
                     <li>VS Code</li>
-                    <li>Sublime Text</li>
-                    <li>Atom</li>
-                    <li>iTerm2</li>
-                    <li>Hyper</li>
                 </ul>
                 <div class="project-links">
-                    <a href="">
+                    <a  href="https://github.com/Mahmud-ii/Poth" target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="">
+                    <a href="https://mahmud-ii.github.io/poth" target="_blank">
                         <i class="fa-solid fa-up-right-from-square"></i>
                     </a>
                 </div>
             </div>
         </div>
         <!-- second highlighted project ends -->
-
         <!-- third highlighted project start -->
         <div class="hl-project">
-            
             <div class="project-image">
-                    <a href="" class="project-img-link">
-                    <!-- before -->
+                <a href="https://mahmud-ii.github.io/mbmedu" target="_blank" class="project-img-link">
+                <!-- before -->
                     <div class="p-image-wrapper">
                         <div class="p-image-wrapper--inner">
-                            <img src="image/demo.png" alt="">
+                            <img src="image/mbmedu.JPG" alt="">
                         </div>
                     </div>
-                    </a>
+                </a>
             </div>
-
             <div class="project-content">
                 <p class="project-overline">Featured Project</p>
-                <h3 class="hl-project-name"><a href="#">Halcyon Theme</a></h3>
+                <h3 class="hl-project-name"><a href="https://mahmud-ii.github.io/mbmedu" target="_blank" >MBM - Edu</a></h3>
                 <div class="project-description">
-                    <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p>A minimal, Educational/Academic website for a High School, Built with Css, Bootstrap, JavaScript.</p>
                 </div>
                 <ul class="project-tech-list">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
                     <li>VS Code</li>
-                    <li>Sublime Text</li>
-                    <li>Atom</li>
-                    <li>iTerm2</li>
-                    <li>Hyper</li>
                 </ul>
                 <div class="project-links">
-                    <a href="">
+                    <a href="https://github.com/Mahmud-ii/MBM-Edu" target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="">
+                    <a href="https://mahmud-ii.github.io/mbmedu" target="_blank">
                         <i class="fa-solid fa-up-right-from-square"></i>
                     </a>
-                </div>
-                <div class="learn-more-btn">
-                    <a href="#"><button class="btn btn-learn-more">Learn More</button></a>
                 </div>
             </div>
         </div>
         <!-- third highlighted project ends -->
     </div>
-
     </section>
 <!-- highlighted projects ends -->
-
-
 <!-- Other Noteworthy Projects starts -->
     <section id="noteworthy-projects" class="ntw-projects">
         <h2>Other Noteworthy Projects</h2>
         <a href="archive.html" class="inline-link archive-link">view the archive</a>
-
         <div class="cards">
             <ul class="project-grid">
                 <!-- project 1 -->
                 <li class="project-card">
                     <div class="card-icons">
                         <div class="icon-wrapper-one">
-                            <a href="#">
+                            <a href="https://github.com/Mahmud-ii/ecommerces/tree/main/ecommerce-sanity-stripe/eccomerce" target="_blank">
                                 <i class="fa-regular fa-folder"></i>
                             </a>
                         </div>
                         <div class="icon-wrapper-two">
-                            <a href="">
+                            <a href="https://github.com/Mahmud-ii/ecommerces/tree/main/ecommerce-sanity-stripe/eccomerce" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="">
+                            <!-- <a href="">
                                 <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                     <h3 class="project-title">
-                        <a href="" class="project-card-header">Integrating Algolia Search with WordPress Multisite</a>
+                        <a href="https://github.com/Mahmud-ii/ecommerces/tree/main/ecommerce-sanity-stripe/eccomerce" target="_blank" class="project-card-header">Ecommerce with dashboard and payment</a>
                     </h3>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <p>Building a custom multisite compatible ecommerce website with payment method and admin panel. </p>
                     <ul class="project-techs">
-                        <li>Algolia</li>
-                        <li>WordPress</li>
-                        <li>PHP</li>
+                        <li>Next.js</li>
+                        <li>Sanity</li>
+                        <li>Stripe</li>
                     </ul>
                 </li>
-<!-- project 2 -->
-<li class="project-card">
-    <div class="card-icons">
-        <div class="icon-wrapper-one">
-            <a href="#">
-                <i class="fa-regular fa-folder"></i>
-            </a>
-        </div>
-        <div class="icon-wrapper-two">
-            <a href="">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="">
-                <i class="fa-solid fa-up-right-from-square"></i>
-            </a>
-        </div>
-    </div>
-    <h3 class="project-title">
-        <a href="" class="project-card-header">Integrating Algolia Search with WordPress Multisite</a>
-    </h3>
-    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
-    <ul class="project-techs">
-        <li>Algolia</li>
-        <li>WordPress</li>
-        <li>PHP</li>
-    </ul>
-</li>
-        <!-- project 3 -->
-        <li class="project-card">
-            <div class="card-icons">
-                <div class="icon-wrapper-one">
-                    <a href="#">
-                        <i class="fa-regular fa-folder"></i>
-                    </a>
-                </div>
-                <div class="icon-wrapper-two">
-                    <a href="">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </a>
-                </div>
-            </div>
-            <h3 class="project-title">
-                <a href="" class="project-card-header">Integrating Algolia Search with WordPress Multisite</a>
-            </h3>
-            <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
-            <ul class="project-techs">
-                <li>Algolia</li>
-                <li>WordPress</li>
-                <li>PHP</li>
-            </ul>
-        </li>
-            <!-- project 4 -->
-            <li class="project-card">
-                <div class="card-icons">
-                    <div class="icon-wrapper-one">
-                        <a href="#">
-                            <i class="fa-regular fa-folder"></i>
-                        </a>
+                <!-- project 2 -->
+                <li class="project-card">
+                    <div class="card-icons">
+                        <div class="icon-wrapper-one">
+                            <a href="https://github.com/Mahmud-ii/ecommerces/tree/main/sly-programmer/disney" target="_blank">
+                                <i class="fa-regular fa-folder"></i>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper-two">
+                            <a href="https://github.com/Mahmud-ii/ecommerces/tree/main/sly-programmer/disney" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <!-- <a href="">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a> -->
+                        </div>
                     </div>
-                    <div class="icon-wrapper-two">
-                        <a href="">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
+                    <h3 class="project-title">
+                        <a href="https://github.com/Mahmud-ii/ecommerces/tree/main/sly-programmer/disney" target="_blank" class="project-card-header">Movie App</a>
+                    </h3>
+                    <p>Cloning the disney website using React, Router, Redux Toolkit, Firebase database and also using some minor packages.</p>
+                    <ul class="project-techs">
+                        <li>React</li>
+                        <li>Redux Toolkit</li>
+                        <li>Firebase</li>
+                    </ul>
+                </li>
+                <!-- project 3 -->
+                <li class="project-card">
+                    <div class="card-icons">
+                        <div class="icon-wrapper-one">
+                            <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/ecomerce/the-rosa/Replica" target="_blank">
+                                <i class="fa-regular fa-folder"></i>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper-two">
+                            <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/ecomerce/the-rosa/Replica" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <!-- <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/ecomerce/the-rosa/Replica" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a> -->
+                        </div>
                     </div>
-                </div>
-                <h3 class="project-title">
-                    <a href="" class="project-card-header">Integrating Algolia Search with WordPress Multisite</a>
-                </h3>
-                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
-                <ul class="project-techs">
-                    <li>Algolia</li>
-                    <li>WordPress</li>
-                    <li>PHP</li>
-                </ul>
-            </li>
-            <!-- project 5 -->
-            <li class="project-card">
-                <div class="card-icons">
-                    <div class="icon-wrapper-one">
-                        <a href="#">
-                            <i class="fa-regular fa-folder"></i>
-                        </a>
+                    <h3 class="project-title">
+                        <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/ecomerce/the-rosa/Replica" target="_blank" class="project-card-header">Restaurant Landing Page</a>
+                    </h3>
+                    <p>This is a sample project of creating an Landing page that is for a restaurant to deliver its services via online website.</p>
+                    <ul class="project-techs">
+                        <li>Html, Css</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <!-- project 4 -->
+                <li class="project-card">
+                    <div class="card-icons">
+                        <div class="icon-wrapper-one">
+                            <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/calculator%20kyle" target="_blank">
+                                <i class="fa-regular fa-folder"></i>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper-two">
+                            <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/calculator%20kyle" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <!-- <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/calculator%20kyle" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a> -->
+                        </div>
                     </div>
-                    <div class="icon-wrapper-two">
-                        <a href="">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
+                    <h3 class="project-title">
+                        <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/calculator%20kyle" target="_blank" class="project-card-header">Calculator</a>
+                    </h3>
+                    <p>This is a Calculator built with Html, Css, Vanilla JavaScript. Only to understand logics behind it.</p>
+                    <ul class="project-techs">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <!-- project 5 -->
+                <li class="project-card">
+                    <div class="card-icons">
+                        <div class="icon-wrapper-one">
+                            <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/weather%20ed" target="_blank">
+                                <i class="fa-regular fa-folder"></i>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper-two">
+                            <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/weather%20ed" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <!-- <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/weather%20ed" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a> -->
+                        </div>
                     </div>
-                </div>
-                <h3 class="project-title">
-                    <a href="" class="project-card-header">Integrating Algolia Search with WordPress Multisite</a>
-                </h3>
-                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
-                <ul class="project-techs">
-                    <li>Algolia</li>
-                    <li>WordPress</li>
-                    <li>PHP</li>
-                </ul>
-            </li>
-            <!-- project 6 -->
-            <li class="project-card">
-                <div class="card-icons">
-                    <div class="icon-wrapper-one">
-                        <a href="#">
-                            <i class="fa-regular fa-folder"></i>
-                        </a>
+                    <h3 class="project-title">
+                        <a href="https://github.com/Mahmud-ii/all-beginner-practiced-projects/tree/main/javascript/weather%20ed" target="_blank" class="project-card-header">Weather App</a>
+                    </h3>
+                    <p>This is a Weather App built with Html, Css, Vanilla JavaScript. Only to gain practical knowledge of Api usage.</p>
+                    <ul class="project-techs">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <!-- project 6 -->
+                <li class="project-card">
+                    <div class="card-icons">
+                        <div class="icon-wrapper-one">
+                            <a href="https://github.com/Mahmud-ii/react-beginning/tree/main/todo-ed" target="_blank">
+                                <i class="fa-regular fa-folder"></i>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper-two">
+                            <a href="https://github.com/Mahmud-ii/react-beginning/tree/main/todo-ed" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <!-- <a href="https://github.com/Mahmud-ii/react-beginning/tree/main/todo-ed" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a> -->
+                        </div>
                     </div>
-                    <div class="icon-wrapper-two">
-                        <a href="">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
-                    </div>
-                </div>
-                <h3 class="project-title">
-                    <a href="" class="project-card-header">Integrating Algolia Search with WordPress Multisite</a>
-                </h3>
-                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
-                <ul class="project-techs">
-                    <li>Algolia</li>
-                    <li>WordPress</li>
-                    <li>PHP</li>
-                </ul>
-            </li>
+                    <h3 class="project-title">
+                        <a href="https://github.com/Mahmud-ii/react-beginning/tree/main/todo-ed" target="_blank" class="project-card-header">Todo App</a>
+                    </h3>
+                    <p>This is a Todo App built with ReactJs. Only to get the idea of logics applied behind for Todo-app.</p>
+                    <ul class="project-techs">
+                        <li>JavaScript</li>
+                        <li>ReactJs</li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <button class="btn more-button">Show More</button>
     </section>
 <!-- Other Noteworthy Projects ends -->
-
 <!-- contact starts -->
     <section id="contact" class="contact">
         <h2 class="contact-section-heading">What’s Next?</h2>
@@ -443,9 +438,6 @@
     </section>
 <!-- contact ends -->
     </main> 
-
-
-
 <!-- footer starts  -->
     <footer id="footer" class="footer">
         <p class="footer-text">
@@ -453,7 +445,6 @@
         </p>
     </footer>
 <!-- footer ends -->
-
 <script src="script.js"></script>
 </body>
 </html>

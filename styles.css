@@ -1,18 +1,18 @@
 :root {
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
+    --dark-navy: #fff;
+    --navy: #fff; 
+    --light-navy: #fff;
+    --lightest-navy: #fff;
     --navy-shadow: rgba(2, 12, 27, 0.7);
 
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --dark-slate: #4a4a41;
+    --slate: #78786f;
+    --light-slate: #33332d;
+    --lightest-slate: #292924;
 
     --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --green: #000000;
+    --green-tint: rgba(147, 147, 133, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;
 
@@ -47,6 +47,26 @@
     --ham-after-active: bottom 0.1s ease-out,
       transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
   }
+
+  .dark{
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+  
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+  
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100, 255, 218, 0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
+  }
+
   /* variables ends */
 
   @font-face {
@@ -273,7 +293,7 @@ header{
   justify-content: flex-end;
 }
 .nav-items li{
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 .menu{
   display: none;
@@ -302,6 +322,10 @@ header{
   transition: transform 300ms ease-in-out;
 }
 
+.nav-items .resume-a::after{
+  content: none;
+}
+
 .nav-items a:hover::after{
   transform: scale(1);
 }
@@ -315,23 +339,25 @@ header{
   background-color: none;
   border: none;
   border-radius: none;
-  font-size: var(--fz-heading);
+  font-size: var(--fz-xxl);
   line-height: none;
   cursor: pointer;
   transition: var(--transition);
   padding: 0.5rem 0.5rem;
 }
 
-.btn-color:hover {
-background-color: var(--green-tint);
-outline: none;
+.btn-resume{
+  padding: 0.75rem 1rem;
 }
 
+.btn-color:hover,
+.btn-color:focus,
+.btn-color:active {
+  background-color: transparent;
+}
 /* header ends */
 
-
 /* sticky */
-
 .sticky{
   position: fixed;
   display: flex;
@@ -592,7 +618,7 @@ outline: none;
 .project-image a{
   width: 100%;
   height: 100%;
-  background-color: var(--green);
+  /* background-color: var(--green); */
   border-radius: var(--border-radius);
   vertical-align: middle;
   }
@@ -604,7 +630,7 @@ outline: none;
     inset: 0px;
     z-index: 3;
     transition: var(--transition);
-    background-color: var(--navy);
+    /* background-color: var(--navy); */
     mix-blend-mode: screen;
   }
   .p-image-wrapper{
@@ -1115,6 +1141,11 @@ footer{
   .menu-items a:hover{
     color: var(--green);
   }
+
+  .menu-items .resume-a::after{
+    content: none;
+  }
+
   .toggle{
     padding: 1.5rem 0.7rem;;
     cursor: pointer;
